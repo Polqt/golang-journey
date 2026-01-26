@@ -68,5 +68,21 @@ func main() {
 	fmt.Println("")
 
 	fmt.Printf("Grid has %d rows\n", len(grid))
-	fmt.Printf("I will get 6: %d", grid[1][2])
+	fmt.Printf("I will get 6: %d\n", grid[1][2])
+
+	names := make([]string, 3 ,5)
+	names[0] = "Alice"
+	names[1] = "Bob"
+	names[2] = "Charlie"
+
+
+	for i, name := range names {
+		fmt.Printf("Index: %d, Name: %s\n", i, name)
+	}
+
+	fmt.Println("")
+	
+	landscape := make([]int, 3, 5)
+	fmt.Println("Length:", len(landscape))
+	fmt.Println("Capacity:", cap(landscape))
 }

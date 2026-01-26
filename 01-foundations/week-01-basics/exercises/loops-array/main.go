@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	for i := 0; i <= 5; i++ {
@@ -32,10 +34,21 @@ func main() {
 
 	fmt.Println("")
 
+
+	// Arrays and Slices
 	cities := []string{"New York", "Los Angeles", "Chicago", "Houston", "Phoenix"}
 	for _, city := range cities {
 		fmt.Printf("%s City\n", city)
 	}
+
+	favoriteCity := cities[2]
+	fmt.Printf("My favorite city is: %s\n", favoriteCity)
+	
+	fmt.Println("")
+
+	numbers := []int{10, 20, 30, 40, 50}
+	numbers = append(numbers, 2, 20)
+	fmt.Println("Numbers:", numbers)
 
 	fmt.Println("")
 

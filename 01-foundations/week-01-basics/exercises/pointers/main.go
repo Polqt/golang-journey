@@ -22,4 +22,5 @@ func main() {
 
 	increment(&x)
 	fmt.Println("x after increment:", x)
+
 }

@@ -58,6 +58,7 @@ This is a living repo. It will evolve, break, get fixed, and (hopefully) improve
 - `03-advanced/` — Concurrency, networking, more
 - `04-expert/` — Distributed systems, cloud, etc.
 - `projects/` — Real-world projects & experiments
+- `challenges/` - Problems and challenges that needs to solve.
 
 ---
 
